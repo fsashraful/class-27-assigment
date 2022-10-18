@@ -1,0 +1,184 @@
+/* ==== Menu Responsive area start === */
+
+@media all and (max-width: 730px) {
+    header {
+        padding: 20px 0px 10px 20px;
+    }
+  }
+
+  @media all and (max-width: 711px){
+
+    header {
+        padding: 20px 0px 10px 0px;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu {
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .menu ul {
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+  }
+
+  @media all and (max-width: 660px){
+    .hero {
+        padding: 110px 0;
+    }
+  }
+
+  @media all and (max-width: 580px){
+    .hero {
+        padding: 110px 0;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+  }
+
+  @media all and (max-width: 450px){
+    .hero {
+        padding: 60px 0;
+    }
+    
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+  }
+
+  @media all and (max-width: 380px){
+    .hero {
+        padding: 45px 0;
+    }
+    
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 11px;
+    }
+
+    .hero a {
+        padding: 5px 12px;
+        margin-top: 0;
+    }
+  }
+
+  /* ===== Service area start ==== */
+
+  @media all and (max-width: 1200px){
+    .s-content h2 {
+        font-size: 27px;
+    }
+
+    .s-content p {
+        font-size: 16px;
+    }
+  }
+
+  @media all and (max-width: 992px){
+    .s-content {
+        width: 34%;
+        padding-top: 56px;
+        margin: 0px 40px;
+    }
+  }
+
+  @media all and (max-width: 768px){
+
+    .s-content {
+        padding-top: 35px;
+    }
+    .s-content h2 {
+        font-size: 20px;
+    }
+
+    .s-content p {
+        font-size: 16px;
+    }
+
+    .service span i {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+  }
+
+  @media all and (max-width: 524px){
+    .s-content {
+        width: 100%;
+        margin-left: 0;
+    }
+  }
+
+   /* ===== Service area End ==== */
+
+   /* ==== About US Area Start ====  */
+
+   @media all and (max-width: 1100px){
+    .main-content img {
+        width: 500px;
+        height: auto;
+    }
+   }
+
+   @media all and (max-width: 1100px){
+    .main-content img {
+        width: 465px;
+        height: 337px;
+    }
+   }
+
+   @media all and (max-width: 1045px){
+    .main-content img {
+        width: 440px;
+        height: 337px;
+    }
+   }
+
+   @media all and (max-width: 1020px){
+    .main-content img {
+        width: 388px;
+        height: 350px;
+    }
+   }
+
+
+
+   @media all and (max-width: 968px){
+    .main-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-wrapper {
+        position: relative;
+        top: 30px;
+    }
+   }
+
+   @media all and (max-width: 968px){
+    .contact-content div {
+        width: 100%;
+        padding: 10px 0;
+    }
+   }
+
+
+   /* ==== About US Area End ====  */
+

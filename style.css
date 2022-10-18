@@ -1,0 +1,144 @@
+
+.clearfix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Header setion start  */
+header {
+	background: #22c3a3;
+	padding: 20px 20px 10px 20px;
+}
+
+.logo{
+    float: left;
+	cursor: pointer;
+}
+
+.logo h3 {
+	font-size: 27px;
+	color: white;
+	line-height: 20px;
+}
+.menu{
+    float: right;
+}
+
+.menu ul{
+    list-style: none;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 0 10px;
+	color: white;
+    cursor: pointer;
+}
+/* Header setion End */
+
+/* Hero section start  */
+.hero {
+	background: url(https://i.ibb.co/SKpyKz6/header-bg01.jpg);
+	background-attachment: fixed;
+	padding: 200px 0;
+	background-position: center center;
+	background-size: cover;
+   
+}
+
+.hero h1 {
+	font-size: 57px;
+	font-weight: 700;
+    color: white;
+}
+
+.hero p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #d0f3ec;
+}
+
+.hero a {
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+/* Hero section End */
+
+/* service section start */
+.service {
+	border-bottom: 3px solid #0dbf9b;
+	padding: 55px 0;
+}
+.s-content {
+	float: left;
+	width: 25%;
+	padding-top: 70px;
+}
+.service span i {
+	color: #0dbf9b;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+/* service section End */
+
+/* Main Content start  */
+
+.main-content {
+	padding: 60px 25px;
+}
+
+.main-content img {
+	float: left;
+	margin-right: 20px;
+	width: 520px;
+	height: auto;
+}
+/* Main Content End */
+
+/* Contact section Start  */
+.contact-content div{
+	float: left;
+	width: 33.3%;
+	padding: 40px 0;
+}
+
+.contact-content i{
+	color: #0dbf9b;
+}
+/* Contact section End */
+footer{
+ background: #0dbf9b;
+ text-align: center;
+ }
+
+ footer i{
+	color: white;
+	font-size: 20px;
+	padding: 20px 10px;
+ }
+
+ .footer-menu{
+	background: #222222;
+	color: #414141;
+	padding: 20px 0;
+ }
+
+ /* .video {
+	text-align: center;
+ }
+ .video a {
+	text-decoration: none;
+	display: inline-block;
+	background: #0dbf9b;
+	font-size: 25px;
+	color: white;
+	border-radius: 6px;
+	padding: 10px 10px;
+	margin-top: 10px;
+} */
